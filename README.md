@@ -1,36 +1,92 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# <h1 align="center">The Loom</h1>
 
-## Getting Started
+## Welcome to The Loom
 
-First, run the development server:
+The Loom is an on-chain metaverse world built on AO where you can hold meetings and interact with others using your avatar. Enjoy text chat, video chat, and voice chat capabilities to connect and communicate seamlessly in this virtual environment.
+
+[![protocol.land](https://arweave.net/eZp8gOeR8Yl_cyH9jJToaCrt2He1PHr0pR4o-mHbEcY)](https://protocol.land/#/repository/<REPO_ID>)
+
+# Index
+
+- [Welcome to The Loom](#welcome-to-the-loom)
+- [Index](#index)
+  - [Techstack](#techstack)
+  - [Features](#features)
+- [How to setup](#how-to-setup)
+  - [Clone the repo](#clone-the-repo)
+  - [Install dependencies in Client Directory](#install-dependencies-in-client-directory)
+  - [Install dependencies in Server Directory](#install-dependencies-in-server-directory)
+  - [ArConnect Wallet](#arconnect-wallet)
+- [Finally run the webapp](#finally-run-the-webapp)
+- [License](#license)
+
+## Techstack
+     
+    - ThreeJS
+    - Vite + ReactJS with Javascript
+    - TailwindCSS
+    - LUA
+    - AO
+
+## Features
+### The Loom has three main maps:
+- **Loom City**: A general map where people can meet and interact.
+- **Hangar**: A place to showcase projects. Each project has a personal AI agent that visitors can interact with to learn more about the project by writing prompts.
+- **Custom Room**: A customizable space that individuals or organizations can rent and furnish according to their needs by purchasing furniture from our store.
+
+### Loom Features:
+- **AI Agents**: Interact with personal AI agents for each showcased project to get detailed information by writing prompts.
+- **Video, Voice, and Text Chat**: Communicate effortlessly with other users through integrated video, voice, and text chat features.
+- **Renting Spaces**: Rent out spaces for meetings or events and customize them as per your requirements.
+- **Build Your Space**: Personalize your rented space by buying and placing furniture from our store.
+- **Avatar Skins**: Purchase unique avatar skins from the store to personalize your virtual presence.
+
+# How to setup
+
+## Clone the repo
+
+Fork and clone the repo
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone -b dev git@github.com:TheMystic07/The-Loom.git
+cd The-Loom
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Install dependencies in Client Directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+cd client
+yarn install
+cd ..
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Install dependencies in Server Directory
 
-## Learn More
+```bash
+cd server
+npm install
+```
 
-To learn more about Next.js, take a look at the following resources:
+## ArConnect Wallet
+If you don't have ArConnect Wallet then [click here](https://www.arconnect.io/download) to download the wallet on your browser.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+After downloading the wallet setup your wallet to use the The Loom
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# Finally run the webapp
 
-## Deploy on Vercel
+Go to the server directory and run this command
+```bash
+npm run start
+```
+And same go to the client directory and run this command
+```bash
+yarn dev
+```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The webapp will be running on `localhost:5173`
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+To open the same application of another device for testing purposes, make sure that the device is connected to the same network as the device on which the webapp is running. Then visit `http://<IP_ADDRESS_OF_THE_DEVICE_RUNNING_THE_WEBAPP>:5713`
+
+# License
+
+The projects is licensed under [MIT](https://choosealicense.com/licenses/mit/)
