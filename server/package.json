@@ -1,7 +1,7 @@
 {
   "type": "module",
   "scripts": {
-    "dev": "nodemon index.js --ignore '*.json'",
+    "dev": "nodemon index.js",
     "start": "node index.js",
     "build": "echo 'No actual build step'"
   },
