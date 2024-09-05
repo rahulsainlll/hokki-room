@@ -3,9 +3,8 @@ import { atom, useAtom } from "jotai";
 import { useEffect } from "react";
 import { io } from "socket.io-client";
 
-export const socket = io(
- " https://hokki.onrender.com"
-);
+export const socket = io("https://hokki.onrender.com");
+
 
 export const charactersAtom = atom([]);
 export const mapAtom = atom(null);
