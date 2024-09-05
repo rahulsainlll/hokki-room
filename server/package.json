@@ -2,7 +2,7 @@
   "type": "module",
   "scripts": {
     "dev": "nodemon index.js",
-    "start": "node index.js",
+    "start": "node …/dist/src/index.js",
     "build": "echo 'No actual build step'"
   },
   "dependencies": {
