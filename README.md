@@ -1,14 +1,14 @@
-# <h1 align="center">The Loom</h1>
+# <h1 align="center">Hokki</h1>
 
-## Welcome to The Loom
+## Welcome to The Hokki
 
-The Loom is an on-chain metaverse world built on AO where you can hold meetings and interact with others using your avatar. Enjoy text chat, video chat, and voice chat capabilities to connect and communicate seamlessly in this virtual environment.
+The Hokki is an on-chain metaverse world built on AO where you can hold meetings and interact with others using your avatar. Enjoy text chat, video chat, and voice chat capabilities to connect and communicate seamlessly in this virtual environment.
 
 [![protocol.land](https://arweave.net/eZp8gOeR8Yl_cyH9jJToaCrt2He1PHr0pR4o-mHbEcY)](https://protocol.land/#/repository/<REPO_ID>)
 
 # Index
 
-- [Welcome to The Loom](#welcome-to-the-loom)
+- [Welcome to The hokki](#welcome-to-the-hokki)
 - [Index](#index)
   - [Techstack](#techstack)
   - [Features](#features)
@@ -29,12 +29,12 @@ The Loom is an on-chain metaverse world built on AO where you can hold meetings 
     - AO
 
 ## Features
-### The Loom has three main maps:
-- **Loom City**: A general map where people can meet and interact.
+### The hokki has three main maps:
+- **hokki City**: A general map where people can meet and interact.
 - **Hangar**: A place to showcase projects. Each project has a personal AI agent that visitors can interact with to learn more about the project by writing prompts.
 - **Custom Room**: A customizable space that individuals or organizations can rent and furnish according to their needs by purchasing furniture from our store.
 
-### Loom Features:
+### hokki Features:
 - **AI Agents**: Interact with personal AI agents for each showcased project to get detailed information by writing prompts.
 - **Video, Voice, and Text Chat**: Communicate effortlessly with other users through integrated video, voice, and text chat features.
 - **Renting Spaces**: Rent out spaces for meetings or events and customize them as per your requirements.
@@ -48,8 +48,8 @@ The Loom is an on-chain metaverse world built on AO where you can hold meetings 
 Fork and clone the repo
 
 ```bash
-git clone -b dev git@github.com:TheMystic07/The-Loom.git
-cd The-Loom
+git clone -b dev git@github.com:TheMystic07/The-hokki.git
+cd The-hokki
 ```
 
 ## Install dependencies in Client Directory
@@ -70,7 +70,7 @@ npm install
 ## ArConnect Wallet
 If you don't have ArConnect Wallet then [click here](https://www.arconnect.io/download) to download the wallet on your browser.
 
-After downloading the wallet setup your wallet to use the The Loom
+After downloading the wallet setup your wallet to use the The hokki
 
 # Finally run the webapp
 
