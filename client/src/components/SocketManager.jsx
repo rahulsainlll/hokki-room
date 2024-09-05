@@ -6,6 +6,7 @@ import { io } from "socket.io-client";
 export const socket = io(
   import.meta.env.VITE_SERVER_URL || "http://localhost:3000"
 );
+
 export const charactersAtom = atom([]);
 export const mapAtom = atom(null);
 export const userAtom = atom(null);
@@ -13,13 +14,13 @@ export const itemsAtom = atom(null);
 export const roomIDAtom = atom(null);
 export const roomsAtom = atom([]);
 
-export const SocketManager = () => {
+  export const SocketManager = () => {
   const [_characters, setCharacters] = useAtom(charactersAtom);
   const [_map, setMap] = useAtom(mapAtom);
   const [_user, setUser] = useAtom(userAtom);
   const [items, setItems] = useAtom(itemsAtom);
   const [_rooms, setRooms] = useAtom(roomsAtom);
-
+  
   useEffect(() => {
     if (!items) {
       return;

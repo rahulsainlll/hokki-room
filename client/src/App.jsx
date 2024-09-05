@@ -38,10 +38,7 @@ function App() {
         <ScrollControls pages={roomID ? 4 : 0}>
           <Experience loaded={loaded} />
         </ScrollControls>
-        {/* Impact badly performances without a noticeable good result */}
-        {/* <EffectComposer>
-          <N8AO intensity={0.42} />
-        </EffectComposer> */}
+
       </Canvas>
       <Loader loaded={loaded} />
       {loaded && <UI />}
